@@ -1,0 +1,40 @@
+# Core Framework
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+streamlit==1.30.0
+gunicorn==21.2.0
+
+# Database
+sqlalchemy==2.0.25
+pymysql==1.1.0
+alembic==1.13.1
+
+# Authentication & Security
+bcrypt==4.1.2
+python-jose[cryptography]==3.3.0
+passlib==1.7.4
+python-multipart==0.0.6
+
+# Payment Integration
+razorpay==1.4.1
+stripe==7.11.0
+
+# Utilities
+python-dotenv==1.0.0
+pydantic==2.5.3
+pydantic-settings==2.1.0
+email-validator==2.1.0
+
+# HTTP Client
+httpx==0.26.0
+requests==2.31.0
+
+# Image Processing
+Pillow==10.2.0
+
+# Date & Time
+python-dateutil==2.8.2
+
+# Development
+pytest==7.4.4
+pytest-asyncio==0.23.3
